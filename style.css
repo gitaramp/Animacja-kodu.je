@@ -1,0 +1,215 @@
+.st0{fill:#F0F0F0;}
+.st1{fill:#FFFFFF;}
+.st2{fill:#AFF2E2;}
+.st3{fill:#E8E8E8;}
+.st4{fill:#797FB8;}
+.st5{fill:#727BAB;}
+.st6{fill:none;stroke:#E8E8E8;stroke-width:18;stroke-miterlimit:10;}
+.st7{fill:#FFFFFF;stroke:#A5AAD8;stroke-width:11.8186;stroke-miterlimit:10;}
+.st8{fill:#FFFFFF;stroke:#A5AAD8;stroke-width:8;stroke-miterlimit:10;}
+.st9{fill:#A5AAD8;}
+.st10{fill:#62627F;}
+.st11{fill:none;stroke:#E8E8E8;stroke-width:6.6375;stroke-miterlimit:10;}
+.st12{fill:none;stroke:#A5AAD8;stroke-width:3.9825;stroke-miterlimit:10;}
+.st13{fill:#97231D;}
+.st14{fill:#CF4D46;}
+.st15{fill:#039475;}
+.st16{fill:#34B399;}
+.st17{clip-path:url(#SVGID_4_);fill:#0DA37F;}
+.st18{fill:#0DA37F;}
+.st19{fill:#F2F2F2;}
+.st20{fill:#CCCCCC;}
+.st21{fill:#696F9F;}
+.st22{fill:#F8A246;}
+.st23{fill:#F4C02E;}
+.st24{fill:none;stroke:#A5AAD8;stroke-width:8;stroke-miterlimit:10;}
+.st25{fill:#555570;}
+.st26{fill:#FCCEA4;}
+.st27{clip-path:url(#SVGID_8_);fill:#039475;}
+.st28{clip-path:url(#SVGID_12_);fill:#34B399;}
+.st29{clip-path:url(#SVGID_15_);fill:#534741;}
+.st30{fill:none;stroke:#34B399;stroke-width:10.4669;stroke-miterlimit:10;}
+.st31{opacity:0.5;fill:#A5AAD8;}
+.st32{fill:#F7CD45;}
+.st33{fill:#F4B400;}
+.st34{clip-path:url(#SVGID_17_);fill:#F9B175;}
+.st35{clip-path:url(#SVGID_19_);fill:#F4B400;}
+.st36{fill:none;stroke:#EDEDED;stroke-width:5;stroke-linecap:round;stroke-miterlimit:10;}
+.st37{fill:#EDEDED;}
+.st38{clip-path:url(#SVGID_21_);fill:#F9B175;}
+.st39{fill:#424254;}
+.st40{clip-path:url(#SVGID_23_);fill:#797999;}
+.st41{clip-path:url(#SVGID_25_);fill:#797999;}
+.st42{fill:#E6E6E6;}
+.st43{fill:#F88A46;}
+.st44{fill:#46465C;}
+.st45{fill:#534741;}
+.st46{fill:none;stroke:#534741;stroke-width:2;stroke-miterlimit:10;}
+
+.flash:hover {
+    fill: #fffe00;
+    cursor: pointer;
+    transition: 0.5;
+}
+
+.phone,
+.display_phone,
+#smoke,
+#eyes,
+#red_armchair,
+#interviewer,
+#forehand_and_paper,
+#arm_biceps,
+#hand,
+#leg,
+#bulb,
+#head,
+#mouth {
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform-origin: 50% 50%;
+}
+
+.phone {
+    animation-name: phone;
+    animation-duration: 0.45s;
+    animation-delay: 1.3s;
+}
+
+.display_phone {
+    animation-name: display_phone;
+    animation-duration: 0.95s;
+    animation-delay: 1.5s;
+}
+
+#smoke {
+    animation-name: smoke;
+    animation-duration: 8s;
+    opacity: 0.1;
+    transform: translateY(5px);
+}
+
+#eyes {
+    animation-name: eyes;
+    animation-duration: 2s;
+}
+
+#red_armchair {
+    animation-name: red_armchair;
+    animation-duration: 2s;
+}
+
+#interviewer {
+    animation-name: interviewer;
+    animation-duration: 2s;
+}
+
+#forehand_and_paper {
+    animation-name: forehand_and_paper;
+    animation-duration: 2s;
+}
+
+#arm_biceps {
+    animation-name: arm_biceps;
+    animation-duration: 2s;   
+}
+
+#hand {
+    animation-name: hand;
+    animation-duration: 1s;
+}
+
+#leg {
+    animation-name: leg;
+    animation-duration: 1s;
+}
+
+#bulb {
+    animation-name: bulb;
+    animation-duration: 5s;
+}
+
+#head {
+    animation-name: head;
+    animation-duration: 20s;
+}
+
+@keyframes phone {
+    50% {
+        transform: translate(-2px,1px);
+    } 
+}
+
+@keyframes display_phone {
+    50% {
+        fill: #F4B350;
+    }
+}
+
+@keyframes smoke {
+    50% {
+        transform: translateY(-4px);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(-8px);
+        opacity: 0;
+    }
+}
+
+@keyframes eyes {
+    50% {
+        transform: translateX(-3px);
+    }
+}
+
+@keyframes red_armchair {
+    50% {
+        transform: translateX(2px);
+    }
+}
+
+@keyframes interviewer {
+    50% {
+        transform: translate(2px);
+    }
+}
+
+@keyframes forehand_and_paper {
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+@keyframes arm_biceps {
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+@keyframes hand {
+    50% {
+        transform: translateY(-2px);
+    }
+}
+
+@keyframes leg {
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes bulb {
+    50% {
+        transform: translateY(36px);
+    }
+}
+
+@keyframes head {
+    10% { 
+        transform: rotate(0) translate(0); 
+    }
+    70% {
+        transform: rotate(2deg) translate(15px, 8px);
+    }
+}
